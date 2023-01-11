@@ -1,0 +1,32 @@
+{
+ "name": "QLAB_pro_A" ,
+  "vendorId": "0x416B",
+  "productId": "0x0006",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
+  "matrix": { "rows": 1, "cols": 6 },
+  
+    "customKeycodes": [
+    {
+      "name": "Super Alt Tab FWD",
+      "title": "Alt Tab Forwards in Windows",
+      "shortName": "ATABF"
+    },
+  {
+      "name": "Super Alt Tab REV",
+      "title": "Alt Tab Reverse in Windows",
+      "shortName": "ATABR"
+    }
+  ],
+  
+  "layouts": 
+  {
+    "keymap": 
+ [
+ [{"w": 1.5, "h":1.5}, "0,1", {"w": 1.5}, "0,0", {"w": 1.5, "h":1.5}, "0,2"],
+ [{"y":0.75,"w": 1.5, "h":1.5},"0,3", {"w": 1.5, "h":1.5}, "0,4", {"w": 1.5, "h":1.5}, "0,5"]
+ ]
+  }
+}
+
+
